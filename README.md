@@ -33,7 +33,7 @@ package shiyan4;
 public class Graduate implements StudentInterface, TeacherInterface{ private String name; private String sex; private int age; private double xuefei; private double salary; public void setName(String a) { name = a; } public void setSex(String a) { sex = a; } public void setAge(int a) { age = a; } public void setmoney(double a, double b) { xuefei = a; salary = b; } public double setxuefei(){ return 0; } public double getxuefei(){//返回每学年的费用 return xuefei * 2; } public double setsalary(){ return 0; } public double getsalary(){//返回年收入 return salary * 12; }
 
 } 六、实验结果
-
+https://github.com/Ding-Y1/-4/blob/main/dy4.PNG
 
 七、实验感想
 这次实验主要体现了抽象类，接口与异常处理的使用，以及当程序完成后，对程序细节的优化，抽象类与接口的使用，可以在接口中去仅仅做函数的声明，在其余抽象类中去实现相关函数的方法，且相同函数声明在不同类中能用不同的方法的实现。在企业生产中，可以分配给不同员工，写不同的任务，并且可以同时在测试类中体现。
